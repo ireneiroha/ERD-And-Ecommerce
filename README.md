@@ -1,25 +1,36 @@
-🛍️ E-commerce Database Design
-This project is part of a peer group assignment aimed at mastering the art of relational database design. It features an ERD and SQL schema for an e-commerce platform capable of managing products, variations, images, and attributes.
+# Peer Group Assignment: E-commerce Database Project
 
-📦 Features
-Logical structure of e-commerce entities
-Relationships between brands, products, sizes, and colors
-Attribute-based product extension (e.g., material, weight)
-Extensible table design using normalization best practices
+## Goal
+This assignment focuses on developing strong relational database design skills 🧠💾. Working as a team, you will create a fully functional database for an e-commerce system, starting with an Entity-Relationship Diagram (ERD) and ending with a complete SQL schema.
 
-📁 Project Files
-ecommerce.sql: SQL script to create all database tables
-ERD.png: Entity Relationship Diagram of the database
-README.md: Project description and usage guide
+**Note:**  
+This is an educational project intended for peer group collaboration.
 
-🧠 Technologies Used
-MySQL
-Draw.io (for ERD)
-GitHub for version control
-👥 Group Members
-Ezinne Kalu – @ireneiroha
+## Project Roadmap
 
-✅ How to Use
-Clone the repository.
-Import ecommerce.sql into your MySQL Workbench or other SQL platform.
-Reference the ERD to understand relationships and entity connections.
+### Phase 1: Discovery & Requirements
+- Brainstorm and prioritize essential features for the e-commerce platform.
+- Identify core entities (Products, Customers, Orders) and define their relationships.
+- Gather business rules and constraints to guide the database design.
+
+### Phase 2: ERD Development
+- Create an ERD to visualize entity connections.
+- Assign primary keys (PKs) and foreign keys (FKs) to establish strong relationships.
+- Review the design with stakeholders for feedback and validation.
+
+### Phase 3: Schema Design
+- Convert the ERD into a detailed relational schema (tables, columns, relationships).
+- Normalize the schema to eliminate redundancy.
+- Define appropriate data types and constraints to maintain data integrity.
+
+### Phase 4: Database Implementation
+- Write SQL scripts to create the database structure in the selected DBMS.
+- Add indexes to optimize query performance.
+- Insert sample data for initial testing.
+
+### Phase 5: Testing, Optimization, and Final Preparation
+- Conduct thorough testing for data integrity, performance, and rule enforcement.
+- Optimize queries and refine the schema based on testing results.
+- Prepare the database for scalability and future growth.
+
+Group Assignment done by: Ezinne Iroha Kalu (Group:706)
